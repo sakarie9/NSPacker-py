@@ -104,3 +104,13 @@ python main.py pack extracted_game -t 0100000000010000 -o packaged_game
 - Please ensure you have legal rights to the game content before using this tool
 - When editing NSP files, make sure the title_id is in the correct format (16 hexadecimal characters)
 - You need to prepare a valid key file before packing
+
+## License Notes
+
+Third-party tools included or used in this repository are subject to their respective licenses:
+
+- **nstool**: Please refer to the license of [jakcron/nstool](https://github.com/jakcron/nstool)
+- **hactoolnet**: Please refer to the license of [Thealexbarney/LibHac](https://github.com/Thealexbarney/LibHac)
+- **hacpack**: The original license applies. If you use the pre-compiled version in this repository, you do so at your own risk
+
+If you redistribute these tools, please ensure compliance with their respective license terms.

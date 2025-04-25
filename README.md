@@ -104,3 +104,13 @@ python main.py pack extracted_game -t 0100000000010000 -o packaged_game
 - 使用此工具前请确保您拥有对相关游戏内容的合法权利
 - 在编辑NSP文件时，请确保title_id格式正确（16位十六进制字符串）
 - 打包前需要准备有效的密钥文件
+
+## 许可证注意事项
+
+本仓库中包含或使用的第三方工具受其各自许可证约束：
+
+- **nstool**: 请参考 [jakcron/nstool](https://github.com/jakcron/nstool) 的许可证
+- **hactoolnet**: 请参考 [Thealexbarney/LibHac](https://github.com/Thealexbarney/LibHac) 的许可证
+- **hacpack**: 原始许可证适用，如使用本仓库预编译版本，使用风险自负
+
+如需重分发这些工具，请确保遵守它们各自的许可条款。
