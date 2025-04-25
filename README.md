@@ -33,8 +33,10 @@ cd nspacker-py
 
 - [jakcron/nstool](https://github.com/jakcron/nstool)
 - [Thealexbarney/LibHac](https://github.com/Thealexbarney/LibHac)
+
    下载 `hactoolnet`
 - hacpack
+
    `hacpack` 原仓库已删除，须从 fork 仓库中自行编译。Linux 用户可尝试使用本仓库预编译的 `hacpack`, Windows 用户请自行编译
 
 ```plain

@@ -33,8 +33,10 @@ Before using, you need to place the required files in the same directory as `mai
 
 - [jakcron/nstool](https://github.com/jakcron/nstool)
 - [Thealexbarney/LibHac](https://github.com/Thealexbarney/LibHac)
+
    Download `hactoolnet`
 - hacpack
+
    The original `hacpack` repository has been deleted, and you must compile it from a fork repository. Linux users can try using the pre-compiled `hacpack` in this repository, Windows users need to compile it themselves.
 
 ```plain
