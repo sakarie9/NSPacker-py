@@ -23,17 +23,19 @@ cd nspacker-py
 
 本脚本调用了外部二进制文件以简化代码
 
-使用前需要将所需的文件放在 main.py 同级目录下，或者放在 PATH 环境变量中
+使用前需要将所需的文件放在 `main.py` 同级目录下，或者放在 `PATH` 环境变量中
 
-缺少 nstool 及 hactoolnet 会导致无法解包
+> [!IMPORTANT]
+> 缺少 `nstool` 及 `hactoolnet` 会导致无法解包
 
-缺少 hacpack 会导致无法封包
+> [!IMPORTANT]
+>缺少 `hacpack` 会导致无法封包
 
 - [jakcron/nstool](https://github.com/jakcron/nstool)
 - [Thealexbarney/LibHac](https://github.com/Thealexbarney/LibHac)
-   下载 hactoolnet
+   下载 `hactoolnet`
 - hacpack
-   hacpack 原仓库已删除，须从 fork 仓库中自行编译。Linux 用户可尝试使用本仓库预编译的 hacpack, Windows 用户请自行编译
+   `hacpack` 原仓库已删除，须从 fork 仓库中自行编译。Linux 用户可尝试使用本仓库预编译的 `hacpack`, Windows 用户请自行编译
 
 ```plain
 示例目录结构：

@@ -23,17 +23,19 @@ cd nspacker-py
 
 This script calls external binary files to simplify the code.
 
-Before using, you need to place the required files in the same directory as main.py, or in a directory included in your PATH environment variable.
+Before using, you need to place the required files in the same directory as `main.py`, or in a directory included in your `PATH` environment variable.
 
-Missing nstool and hactoolnet will prevent unpacking.
+> [!IMPORTANT]
+> Missing `nstool` and `hactoolnet` will prevent unpacking.
 
-Missing hacpack will prevent repacking.
+> [!IMPORTANT]
+> Missing `hacpack` will prevent repacking.
 
 - [jakcron/nstool](https://github.com/jakcron/nstool)
 - [Thealexbarney/LibHac](https://github.com/Thealexbarney/LibHac)
-   Download hactoolnet
+   Download `hactoolnet`
 - hacpack
-   The original hacpack repository has been deleted, and you must compile it from a fork repository. Linux users can try using the pre-compiled hacpack in this repository, Windows users need to compile it themselves.
+   The original `hacpack` repository has been deleted, and you must compile it from a fork repository. Linux users can try using the pre-compiled `hacpack` in this repository, Windows users need to compile it themselves.
 
 ```plain
 Example directory structure:
